@@ -23,6 +23,18 @@ DATE_FORMAT = "%Y%m%d-%H%M"
 
 proxy=("http", "127.0.0.1", 10808)
 
+extension_map = {
+    'audio/mpeg': '.mp3',
+    'audio/mp4': '.m4a',
+    'audio/m4a': '.m4a',
+    'audio/ogg': '.ogg',
+    'audio/flac': '.flac',
+    'audio/aac': '.aac',
+    'audio/wav': '.wav',
+    'audio/x-wav': '.wav',
+    'audio/webm': '.webm',
+}
+
 
 #-----------------------------------------------------
 #---------------- Define Functions -------------------
@@ -69,7 +81,22 @@ data = {
 
 data = load_json(DATA_FILE_PATH)
         
- 
+async def get_msg_by_audio_detail(client:TelegramClient,chat, audio:AudioDetail):
+
+    msg = client.get_messages(chat, audio.msg_id)
+    return msg
+
+async def downoad_audio_by_msg(msg:Message, file_path:str, file_name:str):
+    if hasattr(msg, "audio") and msg.audio:
+        file = f"{file_path}/{file_name}"
+        await msg.download_media(file=file)
+
+async def download_audio_by_audio_detail(client:TelegramClient, chat, audio:AudioDetail):
+    msg = await get_msg_by_audio_detail(client, chat, audio)
+    await downoad_audio_by_msg(msg, DOWNLAOD_PATH, audio.filename)
+
+
+
 
 class AudioDetail:
     def __init__(self, msg, id=None):
@@ -84,6 +111,8 @@ class AudioDetail:
         self.msg_id = self.get_msg_id(msg)
         self.message = self.get_msg_text(msg)
         self.edit_date = self.get_edit_date(msg)
+        self.mime_type = self.get_mime_type(msg)
+        self.extension = self.get_extension()
     
     @property
     def id(self):
@@ -130,6 +159,17 @@ class AudioDetail:
     def get_msg_text(self, msg):
         return msg.message
     
+    def get_mime_type(self, msg):
+        if msg.audio:
+            return msg.audio.mime_type
+    
+    def get_extension(self):
+        if self.mime_type in extension_map:
+            return extension_map[self.mime_type]
+        else:
+            print("extension not found")
+            return None
+
     def is_english_alnum(self, word):
         if word:
             return word.isalnum() and word.isascii()
@@ -147,7 +187,7 @@ class AudioDetail:
         if self.is_english_alnum(self.performer):
             audio_artist = self.performer
         
-        filename = str(self.id) + f"_{channel_username}_{audio_title}_{audio_artist}_{date}"
+        filename = str(self.id) + f"_{channel_username}_{audio_title}_{audio_artist}_{date}.{self.extension}"
         return filename
 
     def get_edit_date(self, msg):
@@ -167,6 +207,7 @@ class AudioDetail:
         "msg_id": self.msg_id,
         "message": self.message,
         "filename": self.filename,
+        "mime_type": self.mime_type,
         "edit_date": self.edit_date
     }
 
