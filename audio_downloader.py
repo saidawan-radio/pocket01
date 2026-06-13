@@ -1,4 +1,3 @@
-import os
 import asyncio
 from pathlib import Path
 from telethon import TelegramClient
@@ -10,23 +9,24 @@ from datetime import datetime
 from dotenv import load_dotenv
 import json
 import re
+from config import conf
 
 load_dotenv()
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-SESSION_OBJ=StringSession(os.getenv("SESSION_STR"))
+API_ID = int(conf.API_ID)
+API_HASH = conf.API_HASH
+SESSION_OBJ=StringSession(conf.SESSION_STR)
 
-CHANNEL_USERNAME=os.getenv("CHANNEL_USERNAME")
-DOWNLOAD_PATH=os.getenv("DOWNLOAD_PATH")
-DATA_FILE_PATH = os.getenv("DATA_FILE_PATH")
-DATE_FORMAT = os.getenv("DATE_FORMAT")
-LOAD_START_DATE = os.getenv("LOAD_START_DATE")
-DURATION_LIMIT = int(os.getenv("DURATION_LIMIT"))
-MIN_MSG_ID = int(os.getenv("MIN_MSG_ID"))
-DATA_FETCH_LIMIT = int(os.getenv("DATA_FETCH_LIMIT"))
-DATA_FETCH_SIZE_LIMIT = os.getenv("DATA_FETCH_SIZE_LIMIT")
-FILENAME_PATTERN = os.getenv("FILENAME_PATTERN")
+CHANNEL_USERNAME = conf.CHANNEL_USERNAME
+DOWNLOAD_PATH= conf.DOWNLOAD_PATH
+DATA_FILE_PATH = conf.DATA_FILE_PATH
+DATE_FORMAT = conf.DATE_FORMAT
+LOAD_START_DATE = conf.LOAD_START_DATE
+DURATION_LIMIT = int(conf.DURATION_LIMIT)
+MIN_MSG_ID = int(conf.MIN_MSG_ID)
+DATA_FETCH_LIMIT = int(conf.DATA_FETCH_LIMIT)
+DATA_FETCH_SIZE_LIMIT = conf.DATA_FETCH_SIZE_LIMIT
+FILENAME_PATTERN = conf.FILENAME_PATTERN
 
 proxy=("http", "127.0.0.1", 10808)
 
