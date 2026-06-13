@@ -177,7 +177,8 @@ class AudioDetail:
             return None
     
     def get_size(self, msg):
-        return msg.audio.size
+        # Return size in MB
+        return msg.audio.size // 10 ** 6
     
     def get_document_id(self, msg):
         return msg.audio.id
