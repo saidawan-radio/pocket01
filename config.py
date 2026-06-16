@@ -17,3 +17,10 @@ class conf:
     DATA_FETCH_LIMIT = int(os.getenv("DATA_FETCH_LIMIT"))
     DATA_FETCH_SIZE_LIMIT = os.getenv("DATA_FETCH_SIZE_LIMIT")
     FILENAME_PATTERN = os.getenv("FILENAME_PATTERN")
+    JSON_DATA_FORM = {
+                "audio_info" : {},
+                "map_msg_id" : {},
+                "general_info": {
+                    "last_internal_id": 0
+                }
+            }
