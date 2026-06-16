@@ -14,26 +14,28 @@ extension_map = {
     'audio/wav': 'wav',
     'audio/x-wav': 'wav',
     'audio/webm': 'webm',
-    'audio/x-aac': 'acc'
+    'audio/x-aac': 'acc',
+    'audio/x-aiff': 'aiff'
 }
 
 class AudioDetail:
-    def __init__(self, msg, id=None):
-        self._id = id
-        self.attribute_audio = self.getDocumentAttributeAudio(msg)
-        self.title = self.get_title(self.attribute_audio)
-        self.performer = self.get_performer(self.attribute_audio)
-        self.duration = self.get_duration(self.attribute_audio)
-        self.date = self.get_date(msg)
-        self.author_name = self.get_author(msg)
-        self.channel = self.get_channel(msg)
-        self.msg_id = self.get_msg_id(msg)
-        self.message = self.get_msg_text(msg)
-        self.edit_date = self.get_edit_date(msg)
-        self.mime_type = self.get_mime_type(msg)
-        self.extension = self.get_extension()
-        self.size = self.get_size(msg)
-        self.document_id = self.get_document_id(msg)
+    def __init__(self, msg=None, id=None):
+        if msg:
+            self._id = id
+            self.attribute_audio = self.getDocumentAttributeAudio(msg)
+            self.title = self.get_title(self.attribute_audio)
+            self.performer = self.get_performer(self.attribute_audio)
+            self.duration = self.get_duration(self.attribute_audio)
+            self.date = self.get_date(msg)
+            self.author_name = self.get_author(msg)
+            self.channel = self.get_channel(msg)
+            self.msg_id = self.get_msg_id(msg)
+            self.message = self.get_msg_text(msg)
+            self.edit_date = self.get_edit_date(msg)
+            self.mime_type = self.get_mime_type(msg)
+            self.extension = self.get_extension()
+            self.size = self.get_size(msg)
+            self.document_id = self.get_document_id(msg)
     
     @property
     def id(self):
@@ -94,7 +96,7 @@ class AudioDetail:
     
     def get_size(self, msg):
         # Return size in MB
-        return msg.audio.size // 10 ** 6
+        return msg.audio.size // 10 ** 6 + 1
     
     def get_document_id(self, msg):
         return msg.audio.id
@@ -165,3 +167,24 @@ class AudioDetail:
         "size" : self.size,
         "document_id" : self.document_id
     }
+    
+    @staticmethod
+    def from_dict(detail):
+        audio_detail = AudioDetail()
+        audio_detail.id = detail["id"]
+        audio_detail.title = detail["title"]
+        audio_detail.performer = detail["performer"]
+        audio_detail.duration = detail["duration"]
+        audio_detail.date = detail["date"]
+        audio_detail.author_name = detail["author_name"]
+        audio_detail.channel = detail["channel"]
+        audio_detail.msg_id = detail["msg_id"]
+        audio_detail.message = detail["message"]
+        audio_detail.edit_date = detail["edit_date"]
+        audio_detail.mime_type = detail["mime_type"]
+        audio_detail.extension = extension_map[detail["mime_type"].lower()]
+        audio_detail.size = detail["size"]
+        audio_detail.document_id = detail["document_id"]
+    
+        return audio_detail
+        
