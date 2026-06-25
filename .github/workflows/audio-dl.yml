@@ -54,6 +54,7 @@ jobs:
                 MIN_MSG_ID: ${{ vars.MIN_MSG_ID }}
                 DATA_FETCH_LIMIT: ${{ vars.DATA_FETCH_LIMIT }}
                 FILENAME_PATTERN: ${{ vars.FILENAME_PATTERN }}
+                DATA_FETCH_SIZE_LIMIT: ${{ vars.DATA_FETCH_SIZE_LIMIT }}
 
                 REPO_OWNER : ${{ github.repository_owner }}
                 REPO_NAME : ${{ github.event.repository.name }}
