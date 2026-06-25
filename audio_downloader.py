@@ -44,7 +44,7 @@ async def main():
         origin_detail = origin_data["audio_info"][str(last_downloaded_intid)]
         await download_audio_by_internal_id(client, channel, origin_data, last_downloaded_intid, conf.DOWNLOAD_PATH )
         opus_filename = add_opus_extension(origin_detail["filename"])
-        new_detail = add_github_raw_url_to_detail(origin_detail, opus_filename, conf.REPO_OWNER, conf.REPO_NAME, conf.REPO_BRANCH)
+        new_detail = add_github_raw_url_to_detail(origin_detail, conf.DOWNLOAD_PATH, opus_filename, conf.REPO_OWNER, conf.REPO_NAME, conf.REPO_BRANCH)
         downloaded_data["audio_info"][str(last_downloaded_intid)] = new_detail
         downloaded_data["general_info"]["last_downloaded_internal_id"] = last_downloaded_intid
     dump_json(conf.DOWNLOADED_DATA_FILE_PATH, downloaded_data)
