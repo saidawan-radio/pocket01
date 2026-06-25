@@ -8,7 +8,7 @@ on:
     - cron: '0 0 */2 * *'
 
 jobs:
-    fetch-data:
+    update-data:
         runs-on: ubuntu-latest
         environment: pocket01
 
