@@ -4,17 +4,17 @@ from AudioDetail import AudioDetail
 
 
 
-def get_github_raw_url(filename, repo_owner, repo_name, branch='main'):
+def get_github_raw_url(download_path, filename, repo_owner, repo_name, branch='main'):
 
     filename = filename.strip('/').replace('\\', '/')
     
-    raw_url = f"https://raw.githubusercontent.com/{repo_owner}/{repo_name}/{branch}/{filename}"
+    raw_url = f"https://raw.githubusercontent.com/{repo_owner}/{repo_name}/{branch}/{download_path}/{filename}"
     
     return raw_url
 
-def add_github_raw_url_to_detail(detail:dict, filename, repo_owner, repo_name, branch='main'):
+def add_github_raw_url_to_detail(detail:dict, download_path, filename, repo_owner, repo_name, branch='master'):
     
-    raw_url = get_github_raw_url(filename, repo_owner, repo_name, branch)
+    raw_url = get_github_raw_url(download_path, filename, repo_owner, repo_name, branch)
     
     detail["github_url"] = raw_url
     return detail
