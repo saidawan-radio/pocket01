@@ -24,19 +24,19 @@ MIN_MSG_ID = int(conf.MIN_MSG_ID)
 DATA_FETCH_SIZE_LIMIT = conf.DATA_FETCH_SIZE_LIMIT
 FILENAME_PATTERN = conf.FILENAME_PATTERN
 
-proxy=("http", "127.0.0.1", 10808)
+
 
 #-----------------------------------------------------
 #---------------- Define Functions -------------------
 
 origin_data = load_json(conf.ORIGIN_DATA_FILE_PATH)
 
-create_and_fill_if_empty(conf.DOWNLOADED_DATA_FILE_PATH, conf.DOWNLOADED_JSON_DATA_FORMW)
+create_and_fill_if_empty(conf.DOWNLOADED_DATA_FILE_PATH, conf.DOWNLOADED_JSON_DATA_FORM)
 
 downloaded_data = load_json(conf.DOWNLOADED_DATA_FILE_PATH)
 
 async def main():
-    client = TelegramClient(SESSION_OBJ, API_ID, API_HASH, proxy=proxy)
+    client = TelegramClient(SESSION_OBJ, API_ID, API_HASH)
     await client.start()
     channel = await client.get_input_entity(CHANNEL_USERNAME)
     last_downloaded_intid = int(downloaded_data["general_info"]["last_downloaded_internal_id"]) + 1
