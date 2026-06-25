@@ -125,10 +125,52 @@
             "size": 5,
             "document_id": 5834723693070128490,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/6_saidaWan_Adnan-Karim-Birtan-Dakam-MedyaTV-2000_20240723-1723.mp3.opus"
+        },
+        "7": {
+            "id": "7",
+            "title": "ئاگر بارانە",
+            "performer": "Marzie Farighi",
+            "duration": 179,
+            "date": "20240723-2025",
+            "author_name": "amin kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "123",
+            "message": "",
+            "filename": "7_saidaWan_Marzie-Farighi_20240723-2025.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260619-2105",
+            "size": 4,
+            "document_id": 5801161693337752316,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/7_saidaWan_Marzie-Farighi_20240723-2025.mp3.opus"
+        },
+        "8": {
+            "id": "8",
+            "title": "Ghad Nadi ",
+            "performer": "Karim Kaban ",
+            "duration": 487,
+            "date": "20240724-1603",
+            "author_name": "Mohsen",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "124",
+            "message": "",
+            "filename": "8_saidaWan_Ghad-Nadi-_Karim-Kaban-_20240724-1603.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20240724-1603",
+            "size": 8,
+            "document_id": 5839077900850042032,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/8_saidaWan_Ghad-Nadi-_Karim-Kaban-_20240724-1603.mp3.opus"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 6
+        "last_downloaded_internal_id": 8
     }
 }
