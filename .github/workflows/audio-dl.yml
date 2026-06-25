@@ -63,6 +63,12 @@ jobs:
 
               run: ./download.sh
             
+
+            - name: install converter dependencies
+              run: |
+                sudo apt update
+                sudo apt install -y ffmpeg opustags
+
             - name: convert files
               env:
                 DOWNLOAD_PATH: ${{ vars.DOWNLOAD_PATH }}
