@@ -31,4 +31,8 @@ for ext in "${extensions[@]}"; do
             echo "Failed: $input"
         fi
     ' _ {} \;
+
+    if [ ! $? -eq 0 ]; then
+        exit 1
+    fi
 done

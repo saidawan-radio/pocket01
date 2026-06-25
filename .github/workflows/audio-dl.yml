@@ -62,6 +62,11 @@ jobs:
                 REPO_BRANCH : ${{ vars.REPO_BRANCH }}
 
               run: ./download.sh
+            
+            - name: convert files
+              env:
+                DOWNLOAD_PATH: ${{ vars.DOWNLOAD_PATH }}
+              run: ./converter.sh
 
             - name: Commit and push changes
               env:
