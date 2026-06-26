@@ -503,10 +503,52 @@
             "size": 4,
             "document_id": 5904283982668767134,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/24_saidaWan_Naser-Razazi_20240901-0840.mp3.opus"
+        },
+        "25": {
+            "id": "25",
+            "title": "فرمێسکی گەش",
+            "performer": "Hasan Zirak",
+            "duration": 233,
+            "date": "20240901-0844",
+            "author_name": "amin kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "142",
+            "message": "قەت لە دنیادا نەبوو بێجگە لە ناخۆشی بەشم\nمات و داماو و پەشێو و بێکەس و چارەڕەشم\nسەردەمێک ئاوارە بووم و ماوەیێکیش دەسبەسەر\nنەمدی ڕووی ئاسوودەیی، هەر تووشی گێرە و قەڕقەشم\nنایەڵێ دوژمن بە ڕەنگە زەردەکەی من پێکەنێ\nتا دەمی مردن ئەمن مەمنوونی فرمێسکی گەشم\nهێمن\n~>\nحەسەن زیرەک",
+            "filename": "25_saidaWan_Hasan-Zirak_20240901-0844.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260626-0959",
+            "size": 10,
+            "document_id": 5904283982668767137,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/25_saidaWan_Hasan-Zirak_20240901-0844.mp3.opus"
+        },
+        "26": {
+            "id": "26",
+            "title": "دڵم نایەت بەجێت بێڵم",
+            "performer": "Ata gharadaghi",
+            "duration": 275,
+            "date": "20240901-0844",
+            "author_name": "amin kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "143",
+            "message": "",
+            "filename": "26_saidaWan_Ata-gharadaghi_20240901-0844.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260619-1629",
+            "size": 8,
+            "document_id": 5884292980080123285,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/26_saidaWan_Ata-gharadaghi_20240901-0844.mp3.opus"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 24
+        "last_downloaded_internal_id": 26
     }
 }
