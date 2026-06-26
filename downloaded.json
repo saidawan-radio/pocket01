@@ -377,10 +377,52 @@
             "size": 6,
             "document_id": 5938394750372549877,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/18_saidaWan_Dli-Nishtmani-Shkand_Adnan-Karim_20240827-0821.mp3.opus"
+        },
+        "19": {
+            "id": "19",
+            "title": "Tasnife Dashti",
+            "performer": "MohammadReza Shajarian",
+            "duration": 403,
+            "date": "20240827-0847",
+            "author_name": "amin kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "136",
+            "message": "رو سر بنه به بالین، تنها مرا رها کن\nتَرکِ منِ خرابِ شب‌گردِ مبتلا کن\n\nماییم و موجِ سودا، شب تا به روز تنها\nخواهی بیا ببخشا، خواهی برو جفا کن\nدیوان شمس\n~>\nشجریان",
+            "filename": "19_saidaWan_Tasnife-Dashti_MohammadReza-Shajarian_20240827-0847.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260626-0937",
+            "size": 7,
+            "document_id": 5881754370940347295,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/19_saidaWan_Tasnife-Dashti_MohammadReza-Shajarian_20240827-0847.mp3.opus"
+        },
+        "20": {
+            "id": "20",
+            "title": "Baade Saba",
+            "performer": "Mohammadreza Shajarian",
+            "duration": 520,
+            "date": "20240827-0847",
+            "author_name": "amin kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "137",
+            "message": "",
+            "filename": "20_saidaWan_Baade-Saba_Mohammadreza-Shajarian_20240827-0847.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260618-1711",
+            "size": 9,
+            "document_id": 5881754370940347297,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/20_saidaWan_Baade-Saba_Mohammadreza-Shajarian_20240827-0847.mp3.opus"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 18
+        "last_downloaded_internal_id": 20
     }
 }
