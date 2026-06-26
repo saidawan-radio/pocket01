@@ -60,16 +60,17 @@ jobs:
                 REPO_OWNER : ${{ github.repository_owner }}
                 REPO_NAME : ${{ github.event.repository.name }}
                 REPO_BRANCH : ${{ vars.REPO_BRANCH }}
-
               run: ./download.sh
-            
 
-            - name: install converter dependencies
+            - name: Install FFmpeg
+              uses: AnimMouse/setup-ffmpeg@v1
+            
+            - name: Install opustags
               run: |
                 sudo apt update
-                sudo apt install -y ffmpeg opustags
-
-            - name: convert files
+                sudo apt install -y opustags
+            
+            - name: Convert files
               env:
                 DOWNLOAD_PATH: ${{ vars.DOWNLOAD_PATH }}
               run: ./converter.sh
