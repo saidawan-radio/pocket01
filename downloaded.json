@@ -839,10 +839,52 @@
             "size": 10,
             "document_id": 5884292980080123441,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/40_saidaWan_MohammadReza-Shajarian_20241011-1927.mp3.opus"
+        },
+        "41": {
+            "id": "41",
+            "title": "Magham",
+            "performer": "Naser Razazi",
+            "duration": 570,
+            "date": "20241013-0837",
+            "author_name": "‏∞... A.R...∞",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "183",
+            "message": "",
+            "filename": "41_saidaWan_Magham_Naser-Razazi_20241013-0837.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20241013-0837",
+            "size": 10,
+            "document_id": 5791957252004910455,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/41_saidaWan_Magham_Naser-Razazi_20241013-0837.mp3.opus"
+        },
+        "42": {
+            "id": "42",
+            "title": "Îşiq u Azadî",
+            "performer": "Hesen Derzi",
+            "duration": 332,
+            "date": "20241013-0837",
+            "author_name": "‏∞... A.R...∞",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "184",
+            "message": "",
+            "filename": "42_saidaWan_Hesen-Derzi_20241013-0837.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260619-1634",
+            "size": 4,
+            "document_id": 5884292980080123290,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/42_saidaWan_Hesen-Derzi_20241013-0837.mp3.opus"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 40
+        "last_downloaded_internal_id": 42
     }
 }
