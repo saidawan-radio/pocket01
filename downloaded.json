@@ -965,10 +965,52 @@
             "size": 6,
             "document_id": 5881754370940347305,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/46_saidaWan_Kawyar_20241016-0853.m4a.opus"
+        },
+        "47": {
+            "id": "47",
+            "title": "وەرە یارم",
+            "performer": "Kawyar",
+            "duration": 333,
+            "date": "20241016-0853",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "191",
+            "message": "وەرە یارم، وەرە ئەی تازە یارم\nوەرە ئەستێرەکەی شەوگاری تارم\nوەرە ئەی شاپەڕی باڵی خەیاڵم\nوەرە ئەی شەوچرای ڕووناکی ماڵم\n\nوەرە سوور بە لەسەر وادە و بەڵێنی\nوەرە کورد بە و مەکە پەیمان شکێنی\nهێمن \n~>\nکەویار",
+            "filename": "47_saidaWan_Kawyar_20241016-0853.m4a",
+            "mime_type": "audio/mp4",
+            "edit_date": "20260618-1734",
+            "size": 6,
+            "document_id": 5881754370940347306,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/47_saidaWan_Kawyar_20241016-0853.m4a.opus"
+        },
+        "48": {
+            "id": "48",
+            "title": "On the Nature of Daylight",
+            "performer": "Max Richter",
+            "duration": 371,
+            "date": "20241016-0921",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "192",
+            "message": "",
+            "filename": "48_saidaWan_On-the-Nature-of-Daylight_Max-Richter_20241016-0921.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20241016-0921",
+            "size": 16,
+            "document_id": 311970004721468432,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/48_saidaWan_On-the-Nature-of-Daylight_Max-Richter_20241016-0921.mp3.opus"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 46
+        "last_downloaded_internal_id": 48
     }
 }
