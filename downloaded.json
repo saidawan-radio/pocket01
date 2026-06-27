@@ -797,10 +797,52 @@
             "size": 9,
             "document_id": 5972144813837915375,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/38_saidaWan_20241004-0727.mp3.opus"
+        },
+        "39": {
+            "id": "39",
+            "title": "Hoping",
+            "performer": "Avalon",
+            "duration": 549,
+            "date": "20241006-0414",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "180",
+            "message": "از اول با هندزفری",
+            "filename": "39_saidaWan_Hoping_Avalon_20241006-0414.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20241006-0414",
+            "size": 23,
+            "document_id": 5764980360555272130,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/39_saidaWan_Hoping_Avalon_20241006-0414.mp3.opus"
+        },
+        "40": {
+            "id": "40",
+            "title": "رفت عمرم در سر سودای دل",
+            "performer": "MohammadReza Shajarian",
+            "duration": 236,
+            "date": "20241011-1927",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "182",
+            "message": "",
+            "filename": "40_saidaWan_MohammadReza-Shajarian_20241011-1927.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260619-2108",
+            "size": 10,
+            "document_id": 5884292980080123441,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/40_saidaWan_MohammadReza-Shajarian_20241011-1927.mp3.opus"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 38
+        "last_downloaded_internal_id": 40
     }
 }
