@@ -1007,10 +1007,52 @@
             "size": 16,
             "document_id": 311970004721468432,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/48_saidaWan_On-the-Nature-of-Daylight_Max-Richter_20241016-0921.mp3.opus"
+        },
+        "49": {
+            "id": "49",
+            "title": "بێهودە بولبول",
+            "performer": "Tahir Tofigh",
+            "duration": 286,
+            "date": "20241016-0922",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "193",
+            "message": "مەقامێکی مامۆستا تاهیر تۆفیق\n\n\nبێهودە بولبول\n لەم چڵ بۆ ئەو چڵ",
+            "filename": "49_saidaWan_Tahir-Tofigh_20241016-0922.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260618-1737",
+            "size": 6,
+            "document_id": 5881754370940347307,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/49_saidaWan_Tahir-Tofigh_20241016-0922.mp3.opus"
+        },
+        "50": {
+            "id": "50",
+            "title": "khayam khani",
+            "performer": "mohammadreza shajarian",
+            "duration": 658,
+            "date": "20241016-0923",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "194",
+            "message": "نیکی و بدی که در نهاد بشر است\nشادی و غمی که در قضا و قدر است\n\nبا چرخ مکن حواله کاندر ره عقل\nچرخ از تو هزار بار بیچاره‌تر است",
+            "filename": "50_saidaWan_khayam-khani_mohammadreza-shajarian_20241016-0923.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20241107-0724",
+            "size": 11,
+            "document_id": 5866111159450473566,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/50_saidaWan_khayam-khani_mohammadreza-shajarian_20241016-0923.mp3.opus"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 48
+        "last_downloaded_internal_id": 50
     }
 }
