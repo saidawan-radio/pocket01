@@ -1049,10 +1049,52 @@
             "size": 11,
             "document_id": 5866111159450473566,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/50_saidaWan_khayam-khani_mohammadreza-shajarian_20241016-0923.mp3.opus"
+        },
+        "51": {
+            "id": "51",
+            "title": "وەرە یارم",
+            "performer": "Naser Razazi",
+            "duration": 159,
+            "date": "20241017-1803",
+            "author_name": "‏∞... A.R...∞",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "195",
+            "message": "",
+            "filename": "51_saidaWan_Naser-Razazi_20241017-1803.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260619-1639",
+            "size": 3,
+            "document_id": 5884292980080123292,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/51_saidaWan_Naser-Razazi_20241017-1803.mp3.opus"
+        },
+        "52": {
+            "id": "52",
+            "title": "سەوزە",
+            "performer": "Razazi",
+            "duration": 268,
+            "date": "20241017-1804",
+            "author_name": "‏∞... A.R...∞",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "196",
+            "message": "",
+            "filename": "52_saidaWan_Razazi_20241017-1804.aiff",
+            "mime_type": "audio/x-aiff",
+            "edit_date": "20260613-0808",
+            "size": 9,
+            "document_id": 5866378770272755285,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/52_saidaWan_Razazi_20241017-1804.aiff.opus"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 50
+        "last_downloaded_internal_id": 52
     }
 }
