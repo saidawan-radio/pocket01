@@ -755,10 +755,52 @@
             "size": 10,
             "document_id": 5866378770272755327,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/36_saidaWan_Break-Me-feat-Mohsen-Namjoo_King-Raam_20240928-0810.mp3.opus"
+        },
+        "37": {
+            "id": "37",
+            "title": "Emrooz",
+            "performer": "Kaykhosro Pournazeri & Homayoun Shajarian [ Faza2Music.Net ] ",
+            "duration": 331,
+            "date": "20240930-0550",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "177",
+            "message": "",
+            "filename": "37_saidaWan_Emrooz_20240930-0550.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20240930-0555",
+            "size": 14,
+            "document_id": 6039731278201230381,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/37_saidaWan_Emrooz_20240930-0550.mp3.opus"
+        },
+        "38": {
+            "id": "38",
+            "title": "چارۆکێ و چارۆکێ ",
+            "performer": "حەسەن زیرەک",
+            "duration": 457,
+            "date": "20241004-0727",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "178",
+            "message": "مامۆستا حەسەن زیرەک\n\nچارۆکێ و چارۆکێ",
+            "filename": "38_saidaWan_20241004-0727.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260618-1720",
+            "size": 9,
+            "document_id": 5972144813837915375,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/38_saidaWan_20241004-0727.mp3.opus"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 36
+        "last_downloaded_internal_id": 38
     }
 }
