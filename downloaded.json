@@ -1511,10 +1511,52 @@
             "size": 3,
             "document_id": 5904283982668767147,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/72_saidaWan_Shabaz-Zamani_20241101-1738.mp3.opus"
+        },
+        "73": {
+            "id": "73",
+            "title": "غەریبم",
+            "performer": "نادیار",
+            "duration": 183,
+            "date": "20241101-1738",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "223",
+            "message": "",
+            "filename": "73_saidaWan_20241101-1738.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260626-1008",
+            "size": 2,
+            "document_id": 5904283982668767145,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/73_saidaWan_20241101-1738.mp3.opus"
+        },
+        "74": {
+            "id": "74",
+            "title": "mamkozha",
+            "performer": "naser razazi",
+            "duration": 222,
+            "date": "20241102-1528",
+            "author_name": "Mohsen",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "224",
+            "message": "",
+            "filename": "74_saidaWan_mamkozha_naser-razazi_20241102-1528.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20241102-1528",
+            "size": 4,
+            "document_id": 5850574566228759590,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/74_saidaWan_mamkozha_naser-razazi_20241102-1528.mp3.opus"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 72
+        "last_downloaded_internal_id": 74
     }
 }
