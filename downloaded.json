@@ -1385,10 +1385,52 @@
             "size": 4,
             "document_id": 5838955872239228183,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/66_saidaWan_Karwani-_Hassan-Zirak-_20241029-1842.mp3.opus"
+        },
+        "67": {
+            "id": "67",
+            "title": "دیوان",
+            "performer": "نادیار",
+            "duration": 371,
+            "date": "20241030-0630",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "215",
+            "message": "",
+            "filename": "67_saidaWan_20241030-0630.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260619-1653",
+            "size": 4,
+            "document_id": 5884292980080123302,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/67_saidaWan_20241030-0630.mp3.opus"
+        },
+        "68": {
+            "id": "68",
+            "title": "saghia",
+            "performer": "shajarian",
+            "duration": 183,
+            "date": "20241031-1152",
+            "author_name": "Mohsen",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "216",
+            "message": "",
+            "filename": "68_saidaWan_saghia_shajarian_20241031-1152.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20241031-1152",
+            "size": 1,
+            "document_id": 5843519064537831131,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/68_saidaWan_saghia_shajarian_20241031-1152.mp3.opus"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 66
+        "last_downloaded_internal_id": 68
     }
 }
