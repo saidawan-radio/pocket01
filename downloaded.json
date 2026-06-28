@@ -1469,10 +1469,52 @@
             "size": 5,
             "document_id": 5904283982668767141,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/70_saidaWan_20241101-0841.mp3.opus"
+        },
+        "71": {
+            "id": "71",
+            "title": "Nori rokhsar",
+            "performer": "Hasan Zirak",
+            "duration": 571,
+            "date": "20241101-1512",
+            "author_name": "‏∞... A.R...∞",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "221",
+            "message": "نووری ڕوخسارت وه‌ده‌رخه ده‌ردی بی ده‌رمانه شه‌و\nزوڵمه‌تی زولفت له‌سه‌ر رووته له ڕۆژ میوانه شه‌و\nدوی شکور مه‌ردانه من ڕیم برده ناو زولفی سیات\nتا بزانن ئه‌هلی موڵکی دڵ قه‌ڵای مێیردانه شه‌و",
+            "filename": "71_saidaWan_Nori-rokhsar_Hasan-Zirak_20241101-1512.mp3",
+            "mime_type": "audio/MP3",
+            "edit_date": "20241228-1605",
+            "size": 10,
+            "document_id": 6017009419441673607,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/71_saidaWan_Nori-rokhsar_Hasan-Zirak_20241101-1512.mp3.opus"
+        },
+        "72": {
+            "id": "72",
+            "title": "غەریبم",
+            "performer": "Shabaz Zamani",
+            "duration": 156,
+            "date": "20241101-1738",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "222",
+            "message": "",
+            "filename": "72_saidaWan_Shabaz-Zamani_20241101-1738.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260626-1011",
+            "size": 3,
+            "document_id": 5904283982668767147,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/72_saidaWan_Shabaz-Zamani_20241101-1738.mp3.opus"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 70
+        "last_downloaded_internal_id": 72
     }
 }
