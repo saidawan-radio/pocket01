@@ -1553,10 +1553,52 @@
             "size": 4,
             "document_id": 5850574566228759590,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/74_saidaWan_mamkozha_naser-razazi_20241102-1528.mp3.opus"
+        },
+        "75": {
+            "id": "75",
+            "title": "Delm Har Aw Delay Jarana",
+            "performer": "Adnan Karim",
+            "duration": 300,
+            "date": "20241104-1808",
+            "author_name": "Mohsen",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "225",
+            "message": "دڵم هەر ئەو دڵەی جارانە ئێستاکەش ئەناڵێنێ\nهەناسەی ساردی ناکامی لە سینەمدا ئەتاسێنێ\nئەگەر جوانیت سەرنجم ڕابکێشێ، مەگرە لێم چونکە\nجەماڵت پەیکەری ڤینۆسی خوای جوانیش ئەجووڵێنێ\nپەچەت لادە ببینم ڕووت ئەمن خۆ سەیری تۆ ناکەم\nلە ڕووی تۆ تێدەگەم یەزدان چلۆن نەخشی ئەنەخشێنێ\nئەخۆل\n~>\nعەدنان کەریم",
+            "filename": "75_saidaWan_Delm-Har-Aw-Delay-Jarana_Adnan-Karim_20241104-1808.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260613-0936",
+            "size": 13,
+            "document_id": 5866378770272755322,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/75_saidaWan_Delm-Har-Aw-Delay-Jarana_Adnan-Karim_20241104-1808.mp3.opus"
+        },
+        "76": {
+            "id": "76",
+            "title": "pachat lada",
+            "performer": "نادیار",
+            "duration": 77,
+            "date": "20241104-1827",
+            "author_name": "Mohsen",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "227",
+            "message": "",
+            "filename": "76_saidaWan_pachat-lada_20241104-1827.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260626-1018",
+            "size": 2,
+            "document_id": 5904283982668767152,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/76_saidaWan_pachat-lada_20241104-1827.mp3.opus"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 74
+        "last_downloaded_internal_id": 76
     }
 }
