@@ -1427,10 +1427,52 @@
             "size": 1,
             "document_id": 5843519064537831131,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/68_saidaWan_saghia_shajarian_20241031-1152.mp3.opus"
+        },
+        "69": {
+            "id": "69",
+            "title": "pekava",
+            "performer": "Hani",
+            "duration": 278,
+            "date": "20241031-2026",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "218",
+            "message": "",
+            "filename": "69_saidaWan_pekava_Hani_20241031-2026.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260619-1656",
+            "size": 5,
+            "document_id": 5884292980080123305,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/69_saidaWan_pekava_Hani_20241031-2026.mp3.opus"
+        },
+        "70": {
+            "id": "70",
+            "title": "چاو کاڵ",
+            "performer": "فەقێ مینە",
+            "duration": 135,
+            "date": "20241101-0841",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "220",
+            "message": "فەقێ مینە\nچاو کاڵ",
+            "filename": "70_saidaWan_20241101-0841.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260626-1006",
+            "size": 5,
+            "document_id": 5904283982668767141,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/70_saidaWan_20241101-0841.mp3.opus"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 68
+        "last_downloaded_internal_id": 70
     }
 }
