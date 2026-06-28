@@ -1217,10 +1217,52 @@
             "size": 5,
             "document_id": 5881726762890567899,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/58_saidaWan_20241023-1649.mp3.opus"
+        },
+        "59": {
+            "id": "59",
+            "title": "Rumaty Wak Gul",
+            "performer": "Qader Dilan",
+            "duration": 261,
+            "date": "20241023-1702",
+            "author_name": "‏∞... A.R...∞",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "205",
+            "message": "",
+            "filename": "59_saidaWan_Rumaty-Wak-Gul_Qader-Dilan_20241023-1702.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20241024-1357",
+            "size": 5,
+            "document_id": 5823649201501771339,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/59_saidaWan_Rumaty-Wak-Gul_Qader-Dilan_20241023-1702.mp3.opus"
+        },
+        "60": {
+            "id": "60",
+            "title": "Karwan Xabati",
+            "performer": "Unknown",
+            "duration": 293,
+            "date": "20241025-1514",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "206",
+            "message": "کاروان خەباتی و رێبوار مەلازادە",
+            "filename": "60_saidaWan_Karwan-Xabati_Unknown_20241025-1514.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260619-1647",
+            "size": 5,
+            "document_id": 5884292980080123300,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/60_saidaWan_Karwan-Xabati_Unknown_20241025-1514.mp3.opus"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 58
+        "last_downloaded_internal_id": 60
     }
 }
