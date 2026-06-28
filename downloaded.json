@@ -1595,10 +1595,52 @@
             "size": 2,
             "document_id": 5904283982668767152,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/76_saidaWan_pachat-lada_20241104-1827.mp3.opus"
+        },
+        "77": {
+            "id": "77",
+            "title": "ta bmene nori chaw",
+            "performer": "naser razazi",
+            "duration": 335,
+            "date": "20241106-1417",
+            "author_name": "Mohsen",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "228",
+            "message": "",
+            "filename": "77_saidaWan_ta-bmene-nori-chaw_naser-razazi_20241106-1417.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20241106-1417",
+            "size": 6,
+            "document_id": 5861743190595342952,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/77_saidaWan_ta-bmene-nori-chaw_naser-razazi_20241106-1417.mp3.opus"
+        },
+        "78": {
+            "id": "78",
+            "title": "sura golm",
+            "performer": "adnan karim",
+            "duration": 224,
+            "date": "20241107-0723",
+            "author_name": "Mohsen",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "230",
+            "message": "",
+            "filename": "78_saidaWan_sura-golm_adnan-karim_20241107-0723.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20241107-0916",
+            "size": 4,
+            "document_id": 5866111159450473570,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket01/master/musics/78_saidaWan_sura-golm_adnan-karim_20241107-0723.mp3.opus"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 76
+        "last_downloaded_internal_id": 78
     }
 }
