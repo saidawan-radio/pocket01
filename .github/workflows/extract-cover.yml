@@ -1,0 +1,56 @@
+name: Extract Opus Covers
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "songs/**.opus"
+
+jobs:
+  extract-covers:
+    runs-on: ubuntu-latest
+
+    env:
+      AUDIO_DIR: musics
+      COVER_DIR: covers
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install opustags
+        run: |
+          sudo apt update
+          sudo apt install -y opustags
+
+      - name: Create cover directory
+        run: mkdir -p "$COVER_DIR"
+
+      - name: Extract cover images
+        shell: bash
+        run: |
+          shopt -s nullglob
+
+          for file in "$AUDIO_DIR"/*.opus; do
+            filename=$(basename "$file")
+            name=$(echo "$filename" | grep -oE '^[0-9]+')
+
+            output="$COVER_DIR/$name.jpg"
+
+            echo "Extracting cover from: $filename"
+
+            opustags --output-cover "$output" "$file" \
+              || echo "No cover found in $filename"
+          done
+
+      - name: Commit extracted covers
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add "$COVER_DIR"
+
+          git diff --cached --quiet && exit 0
+
+          git commit -m "Update extracted opus covers"
+          git push
