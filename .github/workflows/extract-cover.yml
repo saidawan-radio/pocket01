@@ -17,6 +17,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # Important: Use the token to push back to the repo
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Install opustags
         run: |
@@ -45,8 +48,8 @@ jobs:
 
       - name: Commit extracted covers
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config user.name "Mohsen"
+          git config user.email "Moohamadiann@gmail.com"
 
           git add "$COVER_DIR"
 
