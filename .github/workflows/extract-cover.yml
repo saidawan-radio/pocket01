@@ -9,6 +9,7 @@ on:
 jobs:
   extract-covers:
     runs-on: ubuntu-latest
+    environment: pocket01
 
     env:
       AUDIO_DIR: musics
