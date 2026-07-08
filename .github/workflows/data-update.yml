@@ -3,9 +3,6 @@ name: data update
 on:
     workflow_dispatch:
 
-    # Run every 2 days at midnight UTC
-    schedule:
-    - cron: '0 0 */2 * *'
 
 jobs:
     update-data:
